@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدليل التفاعلي للمحاكاة البرلمانية - مجلس النواب المغربي</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f8fafc;
+        }
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased p-4 md:p-8">
+
+    <!-- Header & Navigation -->
+    <header class="max-w-6xl mx-auto mb-8 text-center border-b pb-6 border-slate-200">
+        <div class="inline-block bg-amber-100 text-amber-900 font-bold px-4 py-1 rounded-full text-sm mb-3">
+            المملكة المغربية - مجلس النواب (محاكاة تشريعية)
+        </div>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight">
+            دليل الجلسة التشريعية العامة: قانون إطار التربية والتكوين
+        </h1>
+        <p class="text-slate-600 mt-2 max-w-2xl mx-auto text-sm md:text-base">
+            تفعيل المقتضيات الدستورية (الفصلين 31 و 32) - بطاقات الأدوار والتوزيع الفضائي والمسار الزمني
+        </p>
+        
+        <div class="mt-6 flex justify-center gap-4 no-print">
+            <button onclick="window.print()" class="bg-emerald-700 hover:bg-emerald-800 text-white font-semibold px-5 py-2.5 rounded-lg shadow transition flex items-center gap-2 text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                </svg>
+                طباعة الدليل والبطاقات
+            </button>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto space-y-12">
+
+        <!-- Section 1: Floor Plan -->
+        <section class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+            <div class="flex items-center gap-3 mb-6 border-b pb-4">
+                <span class="text-2xl">🏛️</span>
+                <h2 class="text-2xl font-bold text-slate-900">1. الهندسة الفضائية وقاعة الجلسات العامة</h2>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- Platform -->
+                <div class="bg-amber-900 text-white rounded-xl p-4 text-center shadow-md">
+                    <h3 class="font-bold text-sm tracking-wider uppercase text-amber-200 mb-2">منصة الرئاسة والحكومة</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        <div class="bg-amber-800/80 p-3 rounded-lg border border-amber-700">
+                            <span class="block font-bold text-lg">2. أمين المجلس</span>
+                            <span class="text-xs text-amber-200">المقرر وضابط النصاب</span>
+                        </div>
+                        <div class="bg-amber-800/90 p-3 rounded-lg border border-amber-500 ring-2 ring-amber-400">
+                            <span class="block font-bold text-xl">1. رئيس مجلس النواب</span>
+                            <span class="text-xs text-amber-200">رئيس الجلسة والمسيّر</span>
+                        </div>
+                        <div class="bg-amber-800/80 p-3 rounded-lg border border-amber-700">
+                            <span class="block font-bold text-lg">3. رئيس الحكومة</span>
+                            <span class="text-xs text-amber-200">السلطة التنفيذية</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expert Seat -->
+                <div class="flex justify-center my-2">
+                    <div class="bg-slate-800 text-white px-6 py-2 rounded-lg text-center shadow border border-slate-700 w-full md:w-1/2">
+                        <span class="block font-bold">11. رئيس المجلس الأعلى للتربية والتكوين</span>
+                        <span class="text-xs text-slate-300">مؤسسة دستورية استشارية (الفصل 168)</span>
+                    </div>
+                </div>
+
+                <!-- Parliamentary Wings -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+                    <!-- Opposition Wing -->
+                    <div class="bg-rose-50 border-2 border-rose-200 rounded-xl p-5 shadow-sm">
+                        <div class="flex items-center justify-between mb-4 border-b border-rose-200 pb-2">
+                            <h4 class="font-extrabold text-rose-900 text-lg">🔴 جناح المعارضة (اليسار)</h4>
+                            <span class="text-xs bg-rose-200 text-rose-800 px-2 py-1 rounded font-bold">4 أصوات</span>
+                        </div>
+                        <ul class="space-y-2.5 text-sm text-rose-950">
+                            <li class="p-2 bg-white rounded border border-rose-100 font-semibold shadow-xs">8. رئيس فريق المعارضة البرلمانية</li>
+                            <li class="p-2 bg-white rounded border border-rose-100 shadow-xs">9. النائب (أ): تعديل سن الإلزام (3-16 سنة)</li>
+                            <li class="p-2 bg-white rounded border border-rose-100 shadow-xs">10. النائب (ب): تعديل تسريع الرقمنة (5 سنوات)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Majority Wing -->
+                    <div class="bg-blue-50 border-2 border-blue-200 rounded-xl p-5 shadow-sm">
+                        <div class="flex items-center justify-between mb-4 border-b border-blue-200 pb-2">
+                            <h4 class="font-extrabold text-blue-900 text-lg">🔵 جناح الأغلبية (اليمين)</h4>
+                            <span class="text-xs bg-blue-200 text-blue-800 px-2 py-1 rounded font-bold">5 أصوات</span>
+                        </div>
+                        <ul class="space-y-2.5 text-sm text-blue-950">
+                            <li class="p-2 bg-white rounded border border-blue-100 font-semibold shadow-xs">5. رئيس فريق الأغلبية الحكومية</li>
+                            <li class="p-2 bg-white rounded border border-blue-100 shadow-xs">6. النائب (أ): الدفاع عن التوازنات المالية</li>
+                            <li class="p-2 bg-white rounded border border-blue-100 shadow-xs">7. النائب (ب): الرد على تعديلات المعارضة</li>
+                            <li class="p-2 bg-white rounded border border-blue-100 shadow-xs text-slate-700">4. رئيس لجنة التعليم والثقافة (مقرر محايد)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Character Cards -->
+        <section class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200 page-break">
+            <div class="flex items-center gap-3 mb-6 border-b pb-4">
+                <span class="text-2xl">🎨</span>
+                <h2 class="text-2xl font-bold text-slate-900">2. بطاقات الأدوار والشخصيات (11 مشاركاً)</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                
+                <!-- Card 1 -->
+                <div class="border border-slate-200 rounded-xl p-4 bg-slate-50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-slate-900 text-white font-bold text-xs px-2 py-1 rounded">الدور 01</span>
+                        <span class="text-xs text-slate-500 font-medium">إدارة الجلسة</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900">رئيس مجلس النواب</h3>
+                    <p class="text-xs text-slate-600 font-semibold mb-2">الصفة: رئيس المؤسسة التشريعية</p>
+                    <p class="text-sm text-slate-700">افتتاح الجلسة، ضبط النظام والوقت بالمطرقة، إحالة الكلمة بين الفرق، وإعلان نتائج التصويت النهائي.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="border border-slate-200 rounded-xl p-4 bg-slate-50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-slate-900 text-white font-bold text-xs px-2 py-1 rounded">الدور 02</span>
+                        <span class="text-xs text-slate-500 font-medium">أمانة المجلس</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900">أمين المجلس (المقرر)</h3>
+                    <p class="text-xs text-slate-600 font-semibold mb-2">الصفة: أمين المكتب</p>
+                    <p class="text-sm text-slate-700">التحقق من النصاب القانوني، تلاوة مواد القانون والتعديلات المودعة، وعّد الأصوات بدقة وإبلاغ الرئيس.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="border border-slate-200 rounded-xl p-4 bg-amber-50 border-amber-200 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-amber-800 text-white font-bold text-xs px-2 py-1 rounded">الدور 03</span>
+                        <span class="text-xs text-amber-700 font-medium">السلطة التنفيذية</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-amber-950">رئيس الحكومة</h3>
+                    <p class="text-xs text-amber-800 font-semibold mb-2">الصفة: رئيس الجهاز التنفيذي</p>
+                    <p class="text-sm text-amber-900">تقديم المشروع الإطار، الدفاع عن التوازنات المالية، وممارسة حظر التعديلات الـمُكلفة ماليًا.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="border border-slate-200 rounded-xl p-4 bg-slate-50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-slate-700 text-white font-bold text-xs px-2 py-1 rounded">الدور 04</span>
+                        <span class="text-xs text-slate-500 font-medium">اللجان الدائمة</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900">رئيس لجنة التعليم والثقافة</h3>
+                    <p class="text-xs text-slate-600 font-semibold mb-2">الصفة: رئيس اللجنة المختصة</p>
+                    <p class="text-sm text-slate-700">تقديم تقرير عمل اللجنة حول مسار النقاش والتعديلات الأولية قبل عرض المشـروع على الجلسة العامة.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="border border-blue-200 rounded-xl p-4 bg-blue-50/50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-blue-700 text-white font-bold text-xs px-2 py-1 rounded">الدور 05</span>
+                        <span class="text-xs text-blue-700 font-medium">الأغلبية</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-blue-950">رئيس فريق الأغلبية</h3>
+                    <p class="text-xs text-blue-800 font-semibold mb-2">الصفة: قائد التحالف الحكومي</p>
+                    <p class="text-sm text-blue-900">إلقاء الكلمة السياسية التأييدية، وتثمين خيارات الحكومة وتوازنها بين الاستحقاق والواقعية.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="border border-blue-200 rounded-xl p-4 bg-blue-50/50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-blue-700 text-white font-bold text-xs px-2 py-1 rounded">الدور 06</span>
+                        <span class="text-xs text-blue-700 font-medium">الأغلبية</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-blue-950">النائب (أ) - الأغلبية</h3>
+                    <p class="text-xs text-blue-800 font-semibold mb-2">الصفة: عضو فريق الأغلبية</p>
+                    <p class="text-sm text-blue-900">الرد على تعديل المادة 5 (السن)، وتبرير رفض تمديد السن لـ 3 سنوات بسبب الإكراهات المالية والبنيوية.</p>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="border border-blue-200 rounded-xl p-4 bg-blue-50/50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-blue-700 text-white font-bold text-xs px-2 py-1 rounded">الدور 07</span>
+                        <span class="text-xs text-blue-700 font-medium">الأغلبية</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-blue-950">النائب (ب) - الأغلبية</h3>
+                    <p class="text-xs text-blue-800 font-semibold mb-2">الصفة: عضو فريق الأغلبية</p>
+                    <p class="text-sm text-blue-900">الرد على تعديل المادة 12 (الرقمنة)، وتأكيد حاجة التأهيل الرقمي لأجل 10 سنوات آمنة ميزانياتياً.</p>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="border border-rose-200 rounded-xl p-4 bg-rose-50/50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-rose-700 text-white font-bold text-xs px-2 py-1 rounded">الدور 08</span>
+                        <span class="text-xs text-rose-700 font-medium">المعارضة</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-rose-950">رئيس فريق المعارضة</h3>
+                    <p class="text-xs text-rose-800 font-semibold mb-2">الصفة: قائد المعارضة النيابية</p>
+                    <p class="text-sm text-rose-900">تقديم النقد السياسي الرئيسي للمشروع، وانتقاد البطء والآجال الفضفاضة في التنزيل الاستراتيجي.</p>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="border border-rose-200 rounded-xl p-4 bg-rose-50/50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-rose-700 text-white font-bold text-xs px-2 py-1 rounded">الدور 09</span>
+                        <span class="text-xs text-rose-700 font-medium">المعارضة</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-rose-950">النائب (أ) - المعارضة</h3>
+                    <p class="text-xs text-rose-800 font-semibold mb-2">الصفة: عضو فريق المعارضة</p>
+                    <p class="text-sm text-rose-900">تقديم تعديل المادة 5 والمطالبة بجعل التعليم إلزاميًا من 3 إلى 16 سنة لحماية الأطفال من الهدر المدرسي.</p>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="border border-rose-200 rounded-xl p-4 bg-rose-50/50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-rose-700 text-white font-bold text-xs px-2 py-1 rounded">الدور 10</span>
+                        <span class="text-xs text-rose-700 font-medium">المعارضة</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-rose-950">النائب (ب) - المعارضة</h3>
+                    <p class="text-xs text-rose-800 font-semibold mb-2">الصفة: عضو فريق المعارضة</p>
+                    <p class="text-sm text-rose-900">تقديم تعديل المادة 12 للمطالبة بتقليص أجل الرقمنة إلى 5 سنوات تحقيقاً للعدالة المجالية وتكافؤ الفرص.</p>
+                </div>
+
+                <!-- Card 11 -->
+                <div class="border border-purple-200 rounded-xl p-4 bg-purple-50/50 hover:shadow-md transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="bg-purple-800 text-white font-bold text-xs px-2 py-1 rounded">الدور 11</span>
+                        <span class="text-xs text-purple-700 font-medium">مؤسسة دستورية</span>
+                    </div>
+                    <h3 class="font-bold text-lg text-purple-950">رئيس المجلس الأعلى للتربية</h3>
+                    <p class="text-xs text-purple-800 font-semibold mb-2">الصفة: خبير استشاري (فصل 168)</p>
+                    <p class="text-sm text-purple-900">إعطاء رأي تقني حيادي وموضوعي حول الجاهزية والبنية التحتية لتنفيذ مقتضيات القانون.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 3: Timeline -->
+        <section class="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200">
+            <div class="flex items-center gap-3 mb-6 border-b pb-4">
+                <span class="text-2xl">📜</span>
+                <h2 class="text-2xl font-bold text-slate-900">3. المسار الزمني لمراحل الجلسة (5 مراحل)</h2>
+            </div>
+
+            <div class="relative border-r-2 border-slate-200 mr-4 space-y-8 pr-6">
+                
+                <!-- Stage 1 -->
+                <div class="relative">
+                    <span class="absolute -right-[31px] top-0 bg-emerald-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ring-4 ring-white">1</span>
+                    <h3 class="font-bold text-lg text-slate-900">المرحلة 1: الافتتاح وتقديم المشروع</h3>
+                    <p class="text-sm text-slate-600 mt-1">افتتاح الجلسة بالمطرقة ➔ التأكد من النصاب بواسطة المقرر ➔ تقديم رئيس الحكومة للخطوط العريضة استناداً للفصل 31.</p>
+                </div>
+
+                <!-- Stage 2 -->
+                <div class="relative">
+                    <span class="absolute -right-[31px] top-0 bg-emerald-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ring-4 ring-white">2</span>
+                    <h3 class="font-bold text-lg text-slate-900">المرحلة 2: التقرير والمناقشة العامة</h3>
+                    <p class="text-sm text-slate-600 mt-1">تلاوة تقرير لجنة التعليم ➔ كلمة رئيس الأغلبية (المساندة والتأكيد) ➔ كلمة رئيس المعارضة (الانتقاد والمطالبة بالجرأة).</p>
+                </div>
+
+                <!-- Stage 3 -->
+                <div class="relative">
+                    <span class="absolute -right-[31px] top-0 bg-emerald-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ring-4 ring-white">3</span>
+                    <h3 class="font-bold text-lg text-slate-900">المرحلة 3: مناقشة المادة 5 (سن الإلزام)</h3>
+                    <p class="text-sm text-slate-600 mt-1">عرض النص الأصلي (4-15 سنة) ➔ مقترح تعديل المعارضة (3-16 سنة) ➔ رد الأغلبية ➔ رأي المجلس الأعلى للتربية.</p>
+                </div>
+
+                <!-- Stage 4 -->
+                <div class="relative">
+                    <span class="absolute -right-[31px] top-0 bg-emerald-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ring-4 ring-white">4</span>
+                    <h3 class="font-bold text-lg text-slate-900">المرحلة 4: مناقشة المادة 12 (آجل الرقمنة)</h3>
+                    <p class="text-sm text-slate-600 mt-1">عرض النص الأصلي (10 سنوات) ➔ مقترح تعديل المعارضة (5 سنوات) ➔ رد الأغلبية ➔ موقف الحكومة برفض التعديلين مالياً.</p>
+                </div>
+
+                <!-- Stage 5 -->
+                <div class="relative">
+                    <span class="absolute -right-[31px] top-0 bg-emerald-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ring-4 ring-white">5</span>
+                    <h3 class="font-bold text-lg text-slate-900">المرحلة 5: التصويت العلني وإعلان النتيجة</h3>
+                    <p class="text-sm text-slate-600 mt-1">التصويت برفع الأيدي على التعديلات (رفض بأغلبية 5 ضد 4) ➔ التصويت على القانون برمته (مصادقة الأغلبية) ➔ الطرق بالمطرقة ورفع الجلسة.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="max-w-6xl mx-auto mt-12 text-center text-xs text-slate-400 border-t pt-6 no-print">
+        دليل المحاكاة البرلمانية - تم إعداده وفق المقتضيات الدستورية والقواعد النظامية لمجلس النواب المغربي.
+    </footer>
+
+</body>
+</html>
